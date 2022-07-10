@@ -19,7 +19,7 @@
             <Image url="@Collectors Club Logo.PNG" />
          </image>
       </ImageView>
-      <TextField layoutX="223.0" layoutY="106.0" prefHeight="56.0" prefWidth="235.0" style="-fx-background-color: slategrey; -fx-blend-mode: darken;" text="Fast Food Central">
+      <TextField layoutX="223.0" layoutY="106.0" prefHeight="56.0" prefWidth="235.0" style="-fx-background-color: slategrey; -fx-blend-mode: darken;" text="Collector Cards">
          <font>
             <Font size="26.0" />
          </font>

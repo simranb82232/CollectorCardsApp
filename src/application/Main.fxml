@@ -37,6 +37,136 @@
       </Pane>
       <AnchorPane layoutX="193.0" prefHeight="517.0" prefWidth="753.0">
          <children>
+            <TabPane layoutY="44.0" prefHeight="474.0" prefWidth="753.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Football">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="71.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Jerry Rice.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="328.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Joe Montana.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="565.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Joe Burrow.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="98.0" layoutY="183.0" prefHeight="31.0" prefWidth="105.0" text="Jerry Rice" />
+                              <Label layoutX="340.0" layoutY="183.0" prefHeight="31.0" prefWidth="99.0" text="Joe Montana" />
+                              <Label layoutX="589.0" layoutY="183.0" prefHeight="31.0" prefWidth="79.0" text="Joe Burrow" />
+                              <Line endX="3.0" endY="290.0" layoutX="255.0" layoutY="150.0" startX="3.0" startY="-150.0" />
+                              <Line endX="-12.0" endY="201.0" layoutX="510.0" layoutY="239.0" startX="-12.0" startY="-239.0" />
+                              <Label layoutX="99.0" layoutY="212.0" prefHeight="17.0" prefWidth="84.0" text="\$1799.99" />
+                              <Label layoutX="350.0" layoutY="212.0" text="\$1478.49" />
+                              <Label layoutX="597.0" layoutY="212.0" text="\$785.79" />
+                              <Button fx:id="jerryRice_button" layoutX="91.0" layoutY="373.0" mnemonicParsing="false" onAction="#orderFootballCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                              <Button fx:id="joeMontana_button" layoutX="338.0" layoutY="373.0" mnemonicParsing="false" onAction="#orderFootballCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                              <Button fx:id="joeBurrow_button" layoutX="580.0" layoutY="373.0" mnemonicParsing="false" onAction="#orderFootballCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                              <TextArea layoutX="34.0" layoutY="246.0" prefHeight="100.0" prefWidth="188.0" style="-fx-text-fill: black; -fx-background-color: dodgerblue;" text="Player Name: Jerry Rice&#10;Grading Service: PSA&#10;Card Grade: 9&#10;Description: 1986 Topps #161" />
+                              <TextArea layoutX="283.00" layoutY="246.0" prefHeight="100.0" prefWidth="188.0" style="-fx-text-fill: black; -fx-background-color: dodgerblue;" text="Player Name: Joe Montana&#10;Grading Service: SGA&#10;Card Grade: 7&#10;Description: 1981 Topps #216" />
+                              <TextArea layoutX="530.00" layoutY="246.00" prefHeight="100.0" prefWidth="188.0" style="-fx-text-fill: black; -fx-background-color: dodgerblue;" text="Player Name: Joe Burrow&#10;Grading Service: PSA&#10;Card Grade: 10&#10;Description: 2020 Panini Mosaic #261" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Basketball">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="205.0" layoutX="68.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@LeBron%20James.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="150.0" fitWidth="205.0" layoutX="327.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Michael%20Jordan.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="150.0" fitWidth="205.0" layoutX="571.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Kobe%20Bryant.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Line endX="-9.0" endY="197.0" layoutX="263.0" layoutY="248.0" startX="-9.0" startY="-251.0" />
+                              <Line endY="148.0" layoutX="497.0" layoutY="297.0" startY="-297.0" />
+                              <Label layoutX="88.0" layoutY="196.0" style="-fx-text-fill: black" text="LeBron James" />
+                              <Label layoutX="102.0" layoutY="221.0" style="-fx-text-fill: black" text="\$1007.99" />
+                              <Label layoutX="331.0" layoutY="196.0" style="-fx-text-fill: black" text="Michael Jordan" />
+                              <Label layoutX="354.0" layoutY="221.0" style="-fx-text-fill: black" text="\$1111.99" />
+                              <Label layoutX="587.0" layoutY="196.0" style="-fx-text-fill: black" text="Kobe Bryant" />
+                              <Label layoutX="602.0" layoutY="221.0" style="-fx-text-fill: black" text="\$999.99" />
+                              <TextArea layoutX="34.0" layoutY="246.0" prefHeight="100.0" prefWidth="188.0" style="-fx-text-fill: black; -fx-background-color: dodgerblue;" text="Player Name: LeBron James&#10;Grading Service: PSA&#10;Card Grade: 10&#10;Description: 2003 Topps #221" />
+                              <TextArea layoutX="283.0" layoutY="245.0" prefHeight="100.0" prefWidth="188.0" style="-fx-text-fill: black; -fx-background-color: dodgerblue;" text="Player Name: Michael Jordan&#10;Grading Service: Beckett&#10;Card Grade: 10&#10;Description: 1986 Fleer #57" />
+                              <TextArea layoutX="530.0" layoutY="245.0" prefHeight="100.0" prefWidth="188.0" style="-fx-text-fill: black; -fx-background-color: dodgerblue;" text="Player Name: Kobe Bryant&#10;Grading Service: PSA&#10;Card Grade: 10&#10;Description: 1996-97 Topps Chrome #138" />
+                              <Button fx:id="lebronJames_button" layoutX="88.0" layoutY="385.0" mnemonicParsing="false" onAction="#orderBasketballCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                              <Button fx:id="michaelJordan_button" layoutX="336.0" layoutY="385.0" mnemonicParsing="false" onAction="#orderBasketballCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                              <Button fx:id="kobeBryant_button" layoutX="594.0" layoutY="385.0" mnemonicParsing="false" onAction="#orderBasketballCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Pokemon">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="64.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Blastoise.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="296.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Charizard.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="556.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Venusaur.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Line endX="4.0" endY="222.0" layoutX="222.0" layoutY="223.0" startX="4.0" startY="-225.0" />
+                              <Line endX="2.0" endY="223.0" layoutX="485.0" layoutY="222.0" startX="-4.0" startY="-223.0" />
+                              <Label layoutX="83.0" layoutY="206.0" text="Blastoise Ex" />
+                              <Label layoutX="90.0" layoutY="234.0" text="\$335.99" />
+                              <Label layoutX="314.0" layoutY="206.0" prefHeight="17.0" prefWidth="123.0" text="Charizard Ex" />
+                              <Label layoutX="326.0" layoutY="234.0" text="\$789.99" />
+                              <Label layoutX="579.0" layoutY="206.0" text="Venusaur Ex" />
+                              <Label layoutX="595.0" layoutY="234.0" text="\$450.49" />
+                              <Button fx:id="blastoise_button" layoutX="75.0" layoutY="309.0" mnemonicParsing="false" onAction="#orderPokemonCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                              <Button fx:id="charizard_button" layoutX="312.0" layoutY="309.0" mnemonicParsing="false" onAction="#orderPokemonCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                              <Button fx:id="venusaur_button" layoutX="579.0" layoutY="309.0" mnemonicParsing="false" onAction="#orderPokemonCard" style="-fx-background-color: dodgerblue;" text="Add to cart" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Cart">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox prefHeight="349.0" prefWidth="753.0">
+                                 <children>
+                                    <TextArea fx:id="txt_cart" prefHeight="391.0" prefWidth="753.0" />
+                                 </children>
+                              </VBox>
+                              <Button layoutX="494.0" layoutY="404.0" mnemonicParsing="false" onAction="#readOrder" style="-fx-background-color: yellow;" text="Calculate total price" />
+                              <Button layoutX="630.0" layoutY="404.0" mnemonicParsing="false" onAction="#proceed" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: lawngreen;" text="Proceed" />
+                              <Label layoutX="555.0" layoutY="365.0" text="Total Price to Pay:  $" />
+                              <Button layoutX="383.0" layoutY="404.0" mnemonicParsing="false" onAction="#clear" prefHeight="24.0" prefWidth="94.0" style="-fx-background-color: salmon;" text="Clear Order" />
+                              <TextField fx:id="total" layoutX="670.0" layoutY="361.0" prefHeight="25.0" prefWidth="63.0" promptText="Total" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>       
+              </tabs>
+            </TabPane>
             <Button fx:id="logout_button" layoutX="626.0" layoutY="6.0" mnemonicParsing="false" onAction="#logout" prefHeight="31.0" prefWidth="113.0" style="-fx-background-color: red;" text="Logout" />
          </children>
       </AnchorPane>
