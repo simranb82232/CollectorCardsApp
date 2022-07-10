@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="homePane" prefHeight="508.0" prefWidth="946.0" style="-fx-background-color: slategray;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Pane prefHeight="518.0" prefWidth="193.0" style="-fx-background-color: lightgray;">
+         <children>
+            <ImageView fitHeight="113.0" fitWidth="131.0" layoutX="34.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Collectors Club Logo.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="24.0" layoutY="143.0" prefHeight="31.0" prefWidth="163.0" text="Collector Cards">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="143.0" prefHeight="331.0" prefWidth="163.0" text="One stop online store&#10;for all of your sports&#10;and trading card needs!&#10;&#10;We offer:&#10;&#10;- Football Cards&#10;&#10;- Basketball Cards&#10;&#10;- Pokemon Cards&#10;&#10;- Plus more coming soon!">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <AnchorPane layoutX="193.0" prefHeight="517.0" prefWidth="753.0">
+         <children>
+            <Button fx:id="logout_button" layoutX="626.0" layoutY="6.0" mnemonicParsing="false" onAction="#logout" prefHeight="31.0" prefWidth="113.0" style="-fx-background-color: red;" text="Logout" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
