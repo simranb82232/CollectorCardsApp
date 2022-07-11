@@ -333,8 +333,7 @@ public class MainController implements Initializable{
     			int item_name = rs.getInt(2);
     			double price = rs.getDouble(3);
     		}
-    		String s = String.valueOf(totalPrice);
-			total.appendText(s);
+			total.appendText("" + totalPrice);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
